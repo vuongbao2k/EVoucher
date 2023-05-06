@@ -35,10 +35,6 @@ https://github.com/vuongbao2k/EVoucher/blob/main/Data/VC500.xlsx
 4.	Viết một số store nghiệp vụ riêng
 ○	Lấy dữ liệu menu tương ứng với App_User
 5.	Thiết kế bảng dữ liệu nghiệp vụ EVoucher
-○	Nhân viên
-○	Danh mục loại voucher
-○	Danh sách voucher
-○	Quản lý ngân sách voucher
 6.	Với mỗi bảng chức năng nghiệp vụ EVoucher tạo các store nghiệp vụ thêm sửa xóa, get by id, get paging
 7.	Import dữ liệu nhân viên
 8.	Import dữ liệu ngân sách
