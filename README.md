@@ -42,3 +42,9 @@ https://github.com/vuongbao2k/EVoucher/blob/main/Data/VC500.xlsx
 11.	Viết procedure thực hiện chức năng phân bổ mã voucher
 12.	Viết procedure thực hiện nghiệp vụ sử dụng voucher
 13.	Viết procedure báo cáo số lượng và giá trị voucher đã phân bổ theo tháng
+
+## Thực hiện
+
+- **Yêu cầu 1,2:** Tạo database cho project. Thiết kế, tạo các bảng chức năng chung [1-CREATE_OBJECTS_GENERAL.sql](https://github.com/vuongbao2k/EVoucher/blob/main/Evoucher/1-CREATE_OBJECTS_GENERAL.sql)
+- Trước khi thực hiện **Yêu cầu 3**, ta thấy database có rất nhiều bảng chức năng. Với mỗi bảng chức năng ta đều phải tạo các store nghiệp vụ. Do đó, những công việc này có tính lặp lại. Để có thể giải quyết vấn đề này nhanh chóng. Ta sẽ tạo một store procedure [2-GENERATE_CODE_PROCEDURE.sql](https://github.com/vuongbao2k/EVoucher/blob/main/Evoucher/2-GENERATE_CODE_PROCEDURE.sql) có thể sinh ra text tạo các store nghiệp vụ thêm sửa xóa, get by id, get paging theo yêu cầu
+- 
